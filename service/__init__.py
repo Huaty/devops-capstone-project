@@ -39,3 +39,5 @@ except Exception as error:  # pylint: disable=broad-except
     sys.exit(4)
 
 app.logger.info("Service initialized!")
+
+# Ensure there is a newline at the end of the file
